@@ -35,6 +35,12 @@ gem "bootsnap", require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem "rack-cors"
+gem "figaro"
+gem 'devise'
+gem 'grape'
+gem 'grape-entity'
+gem 'grape-kaminari'
+gem 'grape_on_rails_routes'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
